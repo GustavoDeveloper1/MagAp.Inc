@@ -28,7 +28,7 @@
             <p class="text">Projeção</p>
         </div>
         <div class="right">
-              <img src="cart.png" alt="">
+              <img src="images/cart.png" alt="">
         </div>
       </footer>
     </body>
