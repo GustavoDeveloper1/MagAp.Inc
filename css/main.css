@@ -31,6 +31,7 @@ body, html {
 	height: 100%;
 	font-family: Ubuntu-Regular, sans-serif;
 }
+
 footer{
   position: fixed;
   left: 0;
@@ -194,6 +195,7 @@ iframe {
   overflow: hidden;
   height: auto;
   width: 100%;
+  
 }
 .navbar_horizontal li {
   float: right;
@@ -209,7 +211,7 @@ iframe {
   text-decoration: none;
 }
 .navbar_horizontal a:hover {
-  background-color: black;
+  background-color: rgb(26, 122, 201);
 }
 
 .container-login100 {
@@ -229,7 +231,7 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative;
+  position: absolute;
   z-index: 1;  
 
 }
