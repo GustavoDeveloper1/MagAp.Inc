@@ -25,12 +25,10 @@
 	margin: 0px; 
 	padding: 0px; 
 }
-
 body, html {
 	height: 100%;
 	font-family: Ubuntu-Regular, sans-serif;
 }
-<<<<<<< HEAD
 /*---------vertical----------*/
 .menu_vertical {
   float:left;
@@ -38,31 +36,6 @@ body, html {
   width:20%;
   border-right: 1px solid rgb(214, 214, 214);
   height: 800px;
-=======
-
-footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height:auto;
-  background-color: rgb(80, 156, 255);
-}
-.esqueda{
-  float: left;
-  height: auto;
-  position:relative;
-  width:30%;
-  margin:10px;
-  /*border: 1px solid black;*/
-  text-align:justify;
-}
- .titulo {
-    color:rgb(87, 85, 85);
-    font-weight: bolder;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
->>>>>>> 233690a662213c196a7025abaad7829134d507df
 }
 
 .menu_vertical ul {
@@ -237,6 +210,8 @@ header{
   width: 100%;
   
 }
+
+
 .navbar_horizontal li {
   float: right;
   color: white;
@@ -254,11 +229,7 @@ header{
   text-decoration: none;
 }
 .navbar_horizontal a:hover {
-<<<<<<< HEAD
   background-color: rgb(6, 110, 136);
-=======
-  background-color: rgb(26, 122, 201);
->>>>>>> 233690a662213c196a7025abaad7829134d507df
 }
 .container-login100 {
 
@@ -277,13 +248,8 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-<<<<<<< HEAD
  /*position: relative;
   z-index: 1;  */
-=======
-  position: absolute;
-  z-index: 1;  
->>>>>>> 233690a662213c196a7025abaad7829134d507df
 
 }
 
@@ -403,11 +369,11 @@ header{
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: #d41872;
-  background: -webkit-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -o-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -moz-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: linear-gradient(left, #a445b2, #d41872, #fa4299);
+  background: #3355eb;
+  background: -webkit-linear-gradient(left, #3355eb, #4675f7, #5442fa);
+  background: -o-linear-gradient(left, #3355eb, #4675f7, #5442fa);
+  background: -moz-linear-gradient(left, #3355eb, #4675f7, #5442fa);
+  background: linear-gradient(left, #3355eb, #4675f7, #5442fa);
 }
 /*
 .focus-input100::after {
@@ -488,11 +454,11 @@ header{
   height: 42px;
   border-radius: 21px;
 
-  background: #d41872;
-  background: -webkit-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -o-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -moz-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: linear-gradient(left, #a445b2, #d41872, #fa4299);
+  background: #3499f7;
+  background: -webkit-linear-gradient(left, #3355eb, #4675f7, #5442fa);
+  background: -o-linear-gradient(left, #3355eb, #4675f7, #5442fa);
+  background: -moz-linear-gradient(left, #3355eb, #4675f7, #5442fa);
+  background: linear-gradient(left, #3355eb, #4675f7, #5442fa);
   /*position: relative;*/
   /*z-index: 1;*/
 
@@ -594,8 +560,7 @@ header{
 
 
 
-		/*FOOTER*/
-
+    /*FOOTER*/
     .rodape{
       width: 100%;
       position: fixed;
