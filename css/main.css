@@ -30,6 +30,7 @@ body, html {
 	height: 100%;
 	font-family: Ubuntu-Regular, sans-serif;
 }
+<<<<<<< HEAD
 /*---------vertical----------*/
 .menu_vertical {
   float:left;
@@ -37,6 +38,31 @@ body, html {
   width:20%;
   border-right: 1px solid rgb(214, 214, 214);
   height: 800px;
+=======
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:auto;
+  background-color: rgb(80, 156, 255);
+}
+.esqueda{
+  float: left;
+  height: auto;
+  position:relative;
+  width:30%;
+  margin:10px;
+  /*border: 1px solid black;*/
+  text-align:justify;
+}
+ .titulo {
+    color:rgb(87, 85, 85);
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+>>>>>>> 233690a662213c196a7025abaad7829134d507df
 }
 
 .menu_vertical ul {
@@ -209,6 +235,7 @@ header{
   overflow: hidden;
   height: auto;
   width: 100%;
+  
 }
 .navbar_horizontal li {
   float: right;
@@ -227,7 +254,11 @@ header{
   text-decoration: none;
 }
 .navbar_horizontal a:hover {
+<<<<<<< HEAD
   background-color: rgb(6, 110, 136);
+=======
+  background-color: rgb(26, 122, 201);
+>>>>>>> 233690a662213c196a7025abaad7829134d507df
 }
 .container-login100 {
 
@@ -246,8 +277,13 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+<<<<<<< HEAD
  /*position: relative;
   z-index: 1;  */
+=======
+  position: absolute;
+  z-index: 1;  
+>>>>>>> 233690a662213c196a7025abaad7829134d507df
 
 }
 

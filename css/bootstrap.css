@@ -4283,6 +4283,7 @@ tbody.collapse.show {
 .navbar-expand > .container-fluid {
   padding-right: 0;
   padding-left: 0;
+  
 }
 
 .navbar-expand .navbar-nav {
@@ -4299,6 +4300,7 @@ tbody.collapse.show {
 .navbar-expand .navbar-nav .dropdown-menu-right {
   right: 0;
   left: auto;
+  
 }
 
 .navbar-expand .navbar-nav .nav-link {
@@ -4318,6 +4320,7 @@ tbody.collapse.show {
   display: flex !important;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
+  
 }
 
 .navbar-expand .navbar-toggler {
@@ -8956,6 +8959,8 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .navbar {
     display: none;
+    
+   
   }
   .badge {
     border: 1px solid #000;
