@@ -199,11 +199,13 @@ header{
   width: 100%;
   margin: 0 auto;
 }
+
+/* ESSA DESGRAÇA EDITA A NAVBAR */
 .navbar_horizontal ul {
   list-style: none;
   margin: 0px;
   color: white;
-  background-color: rgb(80, 156, 255);
+  background-color: #1E90FF ;
   padding: 15px;
   overflow: hidden;
   height: auto;
@@ -229,7 +231,7 @@ header{
   text-decoration: none;
 }
 .navbar_horizontal a:hover {
-  background-color: rgb(6, 110, 136);
+  background-color: #4169E1 ;
 }
 .container-login100 {
 

@@ -23,8 +23,8 @@
           <ul>
             <img src="../images/navbar.png" width="70" height="60" alt="MagAp.Inc" title="MagAp.Inc">
             <li><a href="#">Contatos</a></li>
-            <li><a href="../index.php">Login</a></li>
-            <li><a href="../index.php">Início</a></li>
+            <li><a href="../.php">Login</a></li>
+            <li><a href="../.php">Cadastrar</a></li>
           </ul>
         </nav>
       </div>
