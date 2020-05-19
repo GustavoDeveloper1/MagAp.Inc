@@ -29,59 +29,42 @@
         </nav>
       </div>
 
+  <footer>
 
+    <table class="table">
 
+      <thead>
 
+      <tbody>
 
+        <tr>
+          <th>Conatatos</th>
+          <th>Parceiros</th>
+          <th></th>
 
+        </tr>
 
+        <tr>
+          <td>
+            <p>Phone: (61) 9 9866-9975</p>
 
+            <p>Phone: (61)9 9623-7388</p>
 
+            <p>Phone: (61)9 8109-6820</p>
+          </td>
 
+          <td>Projeção</td>
 
+          <td> <img id="rodape" src="../images/cart.png" width="240" height="90" alt=""></td>
 
+        </tr>
 
+      </tbody>
 
+      </thead>
 
+  </footer>
 
+</body>
 
-
-
-        <footer>
-
-          <table class="table">
-
-            <thead>
-              
-            <tbody>
-
-              <tr>
-                <th>Conatatos</th>
-                <th>Parceiros</th>
-                <th></th>
-
-              </tr>
-
-              <tr>
-                <td>
-                  <p>Phone: (61) 9 9866-9975</p>
-
-                  <p>Phone: (61)9 9623-7388</p>
-
-                  <p>Phone: (61)9 8109-6820</p>
-                </td>
-
-                <td>Projeção</td>
-
-                <td> <img id="rodape" src="../images/cart.png" width="240" height="90" alt=""></td>
-
-              </tr>
-
-            </tbody>
-            </thead>
-
-        </footer>
-
-    </body>
-
-    </html>
+</html>
