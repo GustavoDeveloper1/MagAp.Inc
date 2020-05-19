@@ -20,27 +20,40 @@ body{
 }
    .User_area{
        background-color: rgb(80, 156, 255);
-       height: 900px;
+       height: auto;
        width: 21%;
    }
    .User_area li{
-       padding-top: 10px;
+        padding: 10px;
         width: auto;
         height: 40px;
         background-color: #0a4f5f;
         border: 1px solid #0a4f5f;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
-   .User_area li:hover{
-       background-color:  white;
+   .User_area a {
+       text-decoration: none;
+       Color: white;
    }
+   .User_area li:hover{
+       background-color:  #073d49;
+
+    }
    .info_area{
+ 
+       padding: 20px;
        background-image: url(../images/back.jpg);
        height:250px;
 
    }
    .img{
+       margin-top: 40px;
+       margin-left: 40px;
+       background-color: white;
        border: 1px solid white;
+       border-radius:90px;
+       width: 60%;
+       height: 150px;
    }
    
 </style>
