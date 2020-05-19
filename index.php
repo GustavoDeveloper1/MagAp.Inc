@@ -34,6 +34,7 @@
             <input required type="text" id="lname" name="v2" placeholder="Digite aqui sua senha...">
             <input type="checkbox" name="remember" id="remember1">Mantenha-me Conectado
             <br>
+            <a href="paginas/cadastrar.php">Cadastre-se</a>
             <!-- AVISO DE SENHA INVÁLIDA-->
             <?php
             if (isset($_SESSION['nao_autenticado'])) :
