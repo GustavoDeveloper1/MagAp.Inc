@@ -18,7 +18,7 @@
 
     <body>
 
-      <div class="fixed-top">
+
         <nav fixed-top id="nav" class="navbar_horizontal navbar-fexed-top">
           <ul>
             <img src="../images/navbar.png" width="70" height="60" alt="MagAp.Inc" title="MagAp.Inc">
