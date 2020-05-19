@@ -3,30 +3,26 @@ body {
   background-color: rgb(202, 232, 250);
 }
 
-#nav {
-  position: fixed;
-  width: 100%;
-  height: auto;
+#imglogin {
+  position: relative;
+  top: 30px;
+  width: 90px;
 }
 
-#danger {
-  width: 400px;
-  margin: auto;
-  background-color: #FF6347;
-}
-
-#lb2 {
-  font-size: 20px;
+#form {
+  position: relative;
+  top: 30px;
 }
 
 .container {
   position: relative;
-  top: 30px;
+  top: 50px;
   max-width: 600px;
   height: 560px;
   margin: 0 auto;
   background-color: #1E90FF;
   border-radius: 10px;
+  text-align: center;
 }
 
 input[type=text], select {
@@ -139,35 +135,41 @@ input[type=number] {
   color: white;
 }
 
-/* TELA DE PAINEL.PHP*/
+/* Tela informações*/
+
+#nav {
+  background-color: rgb(70, 161, 252);
+  -webkit-box-shadow: 0px 0px 8px 2px black;
+}
 
 .tabs {
   position: relative;
-  min-height: 500px; /* This part sucks */
+  min-height: 500px;
   clear: both;
   margin: 25px 0;
 }
 
-
 .tab {
   float: right;
 }
+
 .tab label {
- 
   background: white;
   padding: 12px;
   border: 1px solid white;
-  margin-left: -20px;
+  margin-left: -10px;
   position: relative;
-  left: 1px;
+  left: -10px;
   border-radius: 4px;
 }
+
 .tab [type="radio"] {
   opacity: 0;
 }
+
 .content {
   position: absolute;
-  top: 28px;
+  top: 42px;
   left: 0;
   background: white;
   right: 0;
@@ -177,29 +179,39 @@ input[type=number] {
   overflow: hidden;
   border-radius: 2px;
 }
-.content > * {
+
+.content>* {
   opacity: 0;
   transform: translateX(-100%);
-  transition: all 0.6s ease;
+  transition: all 0.9s ease;
 }
-[type="radio"]:focus ~ label {
+
+[type="radio"]:focus~label {
   ouline: 2px solid blue;
 }
-[type="radio"]:checked ~ label {
+
+[type="radio"]:checked~label {
   background: #1E90FF;
   border-bottom: 4px solid black;
   z-index: 2;
+  transition: all 0.1s ease;
 }
-[type="radio"]:checked ~ label ~ .content {
+
+[type="radio"]:checked~label~.content {
   z-index: 1;
 }
-[type="radio"]:checked ~ label ~ .content > * {
+
+[type="radio"]:checked~label~.content>* {
   opacity: 1;
   transform: translateX(0);
 }
 
-
-
+#tablefunc {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 8px 2px black;
+  -moz-box-shadow: 0px 0px 8px 2px black;
+  box-shadow: 0px 0px 8px 2px black;
+}
 
 footer {
   position: fixed;
