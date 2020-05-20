@@ -8,10 +8,20 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./images/navbar.png" type="image/x-icon">
   <title>MagAp.Inc</title>
+  <style>
+    #overflowTest {
+      background: white;
+      padding: 15px;
+      width: 100%;
+      height: 300px;
+      overflow: scroll;
+      border: 1px solid #fafad2;
+    }
+  </style>
 </head>
 
 <body>
-   <!-- NavBar-->
+  <!-- NavBar-->
   <nav id="nav" class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">MagAp</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
@@ -23,7 +33,7 @@
           <a class="nav-link disabled navbar-brand" href="#">Desativado</a>
         </li>
       </ul>
-       <!-- Botão de Opções da NavBar-->
+       <!-- Botão de opções-->
       <div class="btn-group dropleft">
         <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Opções
@@ -33,9 +43,9 @@
         </div>
       </div>
   </nav>
-  <div class="tabs">
 
-    <!-- Tab de Funcionários-->
+   <!-- Tab funcionários-->
+  <div class="tabs">
     <div class="tab">
       <input type="radio" id="tab-1" name="tab-group-1" checked>
       <label for="tab-1">Funcionários</label>
@@ -45,29 +55,38 @@
           <h5>Cadastrar Funcionário</h5>
         </a>
         <hr>
-        <table id="tablefunc" class="table">
-          <thead>
-            <tr>
-              <th scope="col">Nome</th>
-              <th scope="col">Sobrenome</th>
-              <th scope="col">CPF</th>
-              <th scope="col">Cargo</th>
-              <th scope="col">Telefone</th>
-              <th scope="col">Endereço</th>
-              <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp; Operações</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Júlia</td>
-              <td>Oliveira</td>
-              <td>12345678901</td>
-              <td>Gerente</td>
-              <td>(61) 9 8759-3645</td>
-              <td>Rio de Jnairo</td>
-              <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
-            </tr>
-            <tr>
+        <div id="overflowTest">
+          <table id="tablefunc" class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Cargo</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Endereço</th>
+                <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp; Operações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Júlia</td>
+                <td>Oliveira</td>
+                <td>12345678901</td>
+                <td>Gerente</td>
+                <td>(61) 9 8759-3645</td>
+                <td>Rio de Jnairo</td>
+                <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              </tr>
+              <tr>
+                <td>Marcos</td>
+                <td>Silva</td>
+                <td>17890123456</td>
+                <td>Atendente</td>
+                <td>(61) 9 3645-8759</td>
+                <td>Brasília-DF</td>
+                <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              </tr>
               <td>Marcos</td>
               <td>Silva</td>
               <td>17890123456</td>
@@ -75,14 +94,15 @@
               <td>(61) 9 3645-8759</td>
               <td>Brasília-DF</td>
               <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
-            </tr>
-          </tbody>
-        </table>
+
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 
-
-    <!--Para adicionar mais Tabs, altere o id e o for de acordo com a qauntidade já existente 
+    <!--  
+    <<Para adicionar mais Tabs, altere o id e o for de acordo com a qauntidade já existente>>
       <div class="tab">
       <input type="radio" id="tab-3" name="tab-group-1">
       <label for="tab-3">Estoque</label>
@@ -91,10 +111,10 @@
         <a style="text-decoration: none" href="#"><h5>Cadastrar Produto</h5></a>
         <hr>
       </div>
-    </div>-->
+    </div>
+-->
 
-
-    <!-- Tab de Fornecedores-->
+ <!-- Tab fornecedores-->
     <div class="tab">
       <input type="radio" id="tab-2" name="tab-group-1">
       <label for="tab-2">Fornecedores</label>
@@ -105,43 +125,45 @@
           <h5>Cadastrar Fornecedor</h5>
         </a>
         <hr>
-        <table id="tablefunc" class="table">
-          <thead>
-            <tr>
-              <th scope="col">Nome Fantasia</th>
-              <th scope="col">CNPJ</th>
-              <th scope="col">E-mail</th>
-              <th scope="col">Telefone</th>
-              <th scope="col">Cidade</th>
-              <th scope="col">Fornece</th>
-              <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp; Operações</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Coca-Cola</td>
-              <td>12345678901</td>
-              <td>Júlia@gmail.com</td>
-              <td>(61) 9 8759-3645</td>
-              <td>Rio Grande do Sul</td>
-              <td>Refrigerantes</td>
-              <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
-            </tr>
-            <tr>
-              <td>Galo</td>
-              <td>17890123456</td>
-              <td>marcos@gmail.com</td>
-              <td>(61) 9 3645-8759</td>
-              <td>Goiânia</td>
-              <td>Massas</td>
-              <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
-            </tr>
-          </tbody>
-        </table>
+        <div id="overflowTest">
+          <table id="tablefunc" class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nome Fantasia</th>
+                <th scope="col">CNPJ</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Cidade</th>
+                <th scope="col">Fornece</th>
+                <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp; Operações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Coca-Cola</td>
+                <td>12345678901</td>
+                <td>Júlia@gmail.com</td>
+                <td>(61) 9 8759-3645</td>
+                <td>Rio Grande do Sul</td>
+                <td>Refrigerantes</td>
+                <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              </tr>
+              <tr>
+                <td>Galo</td>
+                <td>17890123456</td>
+                <td>marcos@gmail.com</td>
+                <td>(61) 9 3645-8759</td>
+                <td>Goiânia</td>
+                <td>Massas</td>
+                <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 
-    <!-- Tab de Estoque-->
+    <!-- Tab estoque-->
     <div class="tab">
       <input type="radio" id="tab-3" name="tab-group-1">
       <label for="tab-3">Estoque</label>
@@ -151,32 +173,42 @@
           <h5>Cadastrar Produto</h5>
         </a>
         <hr>
-        <table id="tablefunc" class="table">
-          <thead>
-            <tr>
-              <th scope="col">Descrição do Produto</th>
-              <th scope="col">Quantidade</th>
-              <th scope="col">Data de Entrada</th>
-              <th scope="col">Data de vencimento</th>
-              <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;Operações</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Coca-Cola</td>
-              <td>200</td>
-              <td>12/09/2019</td>
-              <td>26/08/2022</td>
-              <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
-            </tr>
-            <tr>
-              <td>Coca-Cola</td>
-              <td>200</td>
-              <td>12/09/2019</td>
-              <td>26/08/2022</td>
-              <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
-          </tbody>
-        </table>
+        <div id="overflowTest">
+          <table id="tablefunc" class="table">
+            <thead>
+              <tr>
+                <th scope="col">Descrição do Produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Data de Entrada</th>
+                <th scope="col">Data de vencimento</th>
+                <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;Operações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Coca-Cola</td>
+                <td>200</td>
+                <td>12/09/2019</td>
+                <td>26/08/2022</td>
+                <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              </tr>
+              <tr>
+                <td>Coca-Cola</td>
+                <td>200</td>
+                <td>12/09/2019</td>
+                <td>26/08/2022</td>
+                <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              </tr>
+              <tr>
+                <td>Coca-Cola</td>
+                <td>200</td>
+                <td>12/09/2019</td>
+                <td>26/08/2022</td>
+                <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
