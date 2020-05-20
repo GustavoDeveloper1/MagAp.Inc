@@ -23,7 +23,7 @@ session_start();
 <body>
   <section class="container">
     <img id="imglogin" src="./images/navbar.png" alt="">
-    <form id="form" action="" method="POST">
+    <form id="form" action="z" method="POST">
       <br>
       <div class="label-float">
         <input type="text" placeholder=" " required name="usuario" />
