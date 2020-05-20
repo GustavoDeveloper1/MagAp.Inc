@@ -40,6 +40,7 @@
         </button>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Cadastrar novo usuário</a>
+          <a class="dropdown-item" href="#">Sair</a>
         </div>
       </div>
   </nav>
@@ -50,9 +51,9 @@
       <input type="radio" id="tab-1" name="tab-group-1" checked>
       <label for="tab-1">Funcionários</label>
       <div class="content">
-        <h3>Funcionários</h3>
+        <h4>Funcionários</h4>
         <a style="text-decoration: none" href="#">
-          <h5>Cadastrar Funcionário</h5>
+          <h6>Cadastrar Funcionário</h6>
         </a>
         <hr>
         <div id="overflowTest">
@@ -120,9 +121,9 @@
       <label for="tab-2">Fornecedores</label>
 
       <div class="content">
-        <h3>Fornecedores</h3>
+        <h4>Fornecedores</h4>
         <a style="text-decoration: none" href="#">
-          <h5>Cadastrar Fornecedor</h5>
+          <h6>Cadastrar Fornecedor</h6>
         </a>
         <hr>
         <div id="overflowTest">
@@ -168,9 +169,9 @@
       <input type="radio" id="tab-3" name="tab-group-1">
       <label for="tab-3">Estoque</label>
       <div class="content">
-        <h3>Estoque</h3>
+        <h4>Estoque</h4>
         <a style="text-decoration: none" href="#">
-          <h5>Cadastrar Produto</h5>
+          <h6>Cadastrar Produto</h6>
         </a>
         <hr>
         <div id="overflowTest">
@@ -214,6 +215,14 @@
   </div>
   <!--footer-->
   <footer>
+
+ 
+
+  </tbody>
+</table>
+  
+
+
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
