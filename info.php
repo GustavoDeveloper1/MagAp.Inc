@@ -14,7 +14,8 @@
       padding: 15px;
       width: 100%;
       height: 300px;
-      overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: scroll;
       border: 1px solid #fafad2;
     }
   </style>
@@ -33,7 +34,7 @@
           <a class="nav-link disabled navbar-brand" href="#">Desativado</a>
         </li>
       </ul>
-       <!-- Botão de opções-->
+      <!-- Botão de opções-->
       <div class="btn-group dropleft">
         <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Opções
@@ -45,7 +46,7 @@
       </div>
   </nav>
 
-   <!-- Tab funcionários-->
+  <!-- Tab funcionários-->
   <div class="tabs">
     <div class="tab">
       <input type="radio" id="tab-1" name="tab-group-1" checked>
@@ -96,13 +97,31 @@
               <td>Brasília-DF</td>
               <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
 
+              </tr>
+              <td>Marcos</td>
+              <td>Silva</td>
+              <td>17890123456</td>
+              <td>Atendente</td>
+              <td>(61) 9 3645-8759</td>
+              <td>Brasília-DF</td>
+              <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+
+              </tr>
+              <td>Marcos</td>
+              <td>Silva</td>
+              <td>17890123456</td>
+              <td>Atendente</td>
+              <td>(61) 9 3645-8759</td>
+              <td>Brasília-DF</td>
+              <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+
             </tbody>
           </table>
         </div>
       </div>
     </div>
 
-    <!--  
+    <!--  EXEMPLO
     <<Para adicionar mais Tabs, altere o id e o for de acordo com a qauntidade já existente>>
       <div class="tab">
       <input type="radio" id="tab-3" name="tab-group-1">
@@ -115,7 +134,7 @@
     </div>
 -->
 
- <!-- Tab fornecedores-->
+    <!-- Tab fornecedores-->
     <div class="tab">
       <input type="radio" id="tab-2" name="tab-group-1">
       <label for="tab-2">Fornecedores</label>
@@ -215,14 +234,6 @@
   </div>
   <!--footer-->
   <footer>
-
- 
-
-  </tbody>
-</table>
-  
-
-
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
