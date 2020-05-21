@@ -1,7 +1,6 @@
 body {
   height: 100%;
   background-color: white;
-  position: relative;
 }
 
 #imglogin {
@@ -137,83 +136,8 @@ input[type=number] {
   color: white;
 }
 
-/* Tela informações*/
-
 #nav {
-  background-color: rgb(70, 161, 252);
-  -webkit-box-shadow: 0px 0px 8px 2px black;
-}
-
-.tabs {
-  top: -10px;
-  position: relative;
-  min-height: 460px;
-  clear: both;
-  margin: 25px 0;
-}
-
-.tab {
-  float: right;
-}
-
-.tab label {
-  background: gray;
-  padding: 12px;
-  border: 1px solid transparent;
-  margin-left: -10px;
-  position: relative;
-  left: -10px;
-  border-radius: 20px;
-}
-
-.tab [type="radio"] {
-  opacity: 0;
-}
-
-.content {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  background: white;
-  right: 0;
-  bottom: 0;
-  padding: 20px;
-  border: 1px solid white;
-  overflow: hidden;
-  border-radius: 2px;
-}
-
-.content>* {
-  opacity: 0;
-  transform: translateX(-100%);
-  transition: all 0.2s ease;
-}
-
-[type="radio"]:focus~label {
-  ouline: 2px solid blue;
-}
-
-[type="radio"]:checked~label {
-  background: #1E90FF;
-  border-bottom: 3px solid gray;
-  z-index: 2;
-  transition: all 0.1s ease;
-}
-
-[type="radio"]:checked~label~.content {
-  z-index: 1;
-}
-
-[type="radio"]:checked~label~.content>* {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-#tablefunc {
-  background-color: #fafad2;
-  -webkit-box-shadow: 0px 0px 8px 2px black;
-  -moz-box-shadow: 0px 0px 8px 2px black;
-  box-shadow: 0px 0px 8px 2px black;
+  background-color: #1E90FF;
 }
 
 footer {
