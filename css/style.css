@@ -1,38 +1,42 @@
 body {
   height: 100%;
-  background-color: rgb(202, 232, 250);
+  background-color: white;
 }
 
-#nav {
-  position: fixed;
-  width: 100%;
-  height: auto;
+#imglogin {
+  position: relative;
+  top: 30px;
+  width: 90px;
 }
 
-#danger {
-  width: 400px;
-  margin: auto;
-  background-color: #FF6347;
-}
-
-#lb2 {
-  font-size: 20px;
+#form {
+  position: relative;
+  top: 30px;
 }
 
 .container {
   position: relative;
-  top: 150px;
-  max-width: 400px;
-  height: 350px;
+  top: 50px;
+  max-width: 600px;
+  height: 560px;
   margin: 0 auto;
-  background-color: rgb(130, 190, 132);
+  background-color: #fafad2/*#1E90FF*/
+  ;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 8px 2px rgb(113, 160, 221);
-  -moz-box-shadow: 0px 0px 8px 2px rgb(113, 160, 221);
-  box-shadow: 0px 0px 8px 2px rgb(113, 160, 221);
+  text-align: center;
 }
 
 input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -52,11 +56,11 @@ input[type=number] {
 }
 
 .button {
-  background-color: rgb(210, 219, 211);
+  background-color: #279B61;
   border-radius: 30px;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 6px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -71,11 +75,11 @@ input[type=number] {
 .button1 {
   background-color: white;
   color: #4CAF50;
-  border: 1px solid #4CAF50;
+  border: 1px solid #993399;
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: #993399;
   color: white;
 }
 
@@ -86,11 +90,11 @@ input[type=number] {
 
 .label-float input {
   border: 1px solid lightgrey;
-  border-radius: 5px;
+  border-radius: 30px;
   outline: none;
   min-width: 250px;
   padding: 15px 20px;
-  font-size: 16px;
+  font-size: 15px;
   transition: all .1s linear;
   -webkit-transition: all .1s linear;
   -moz-transition: all .1s linear;
@@ -98,7 +102,7 @@ input[type=number] {
 }
 
 .label-float input:focus {
-  border: 2px solid #4CAF50;
+  border: 2px transparent;
 }
 
 .label-float input::placeholder {
@@ -118,12 +122,8 @@ input[type=number] {
   box-sizing: border-box;
 }
 
-.label-float input:required:invalid+label {
-  color: Black;
-}
-
 .label-float input:focus:required:invalid {
-  border: 2px solid #4CAF50;
+  border: 2px solid#993399;
 }
 
 .label-float input:required:invalid+label:before {
@@ -131,9 +131,13 @@ input[type=number] {
 }
 
 .label-float input:focus+label, .label-float input:not(:placeholder-shown)+label {
-  font-size: 13px;
-  top: 0;
-  color: black;
+  font-size: 20px;
+  top: -12px;
+  color: white;
+}
+
+#nav {
+  background-color: #1E90FF;
 }
 
 footer {
@@ -141,6 +145,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 100px;
   background-color: #1E90FF;
   color: black;
   text-align: center;
