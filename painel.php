@@ -23,22 +23,38 @@ body{
        height: 900px;
        width: 21%;
    }
+   .User_area li{
+       padding-top: 10px;
+        width: auto;
+        height: 40px;
+        background-color: #0a4f5f;
+        border: 1px solid #0a4f5f;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .User_area li:hover{
+       background-color:  white;
+   }
    .info_area{
        background-image: url(../images/back.jpg);
-       height:200px;
+       height:250px;
+
    }
+   .img{
+       border: 1px solid white;
+   }
+   
 </style>
 <body>
-    <nav class="navbar_horizontal">
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
-    </nav>
+
     <div class="User_area">
         <div class="info_area">
             <div class="img"></div>
         </div>
+        <ul>
+            <li><a href="#">Informações Gerais</a></li>
+            <li><a href="#">Cadastrar Fornecedor</a></li>
+            <li><a href="#">Cadastrar Novo Usuário</a></li>
+        </ul>
     </div>
     <footer class="rodape">
     

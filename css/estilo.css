@@ -1,0 +1,143 @@
+body{
+    height: 100%;
+}
+#form {
+    position: relative;
+    top: 30px;
+  }
+  
+  .container {
+    position: relative;
+    top: 50px;
+    max-width:90%;
+    height: 560px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .button {
+    background-color: #279B61;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 15%;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    width: 70%;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: #4CAF50;
+    border: 1px solid #993399;
+  }
+  
+  .button1:hover {
+    background-color: #993399;
+    color: white;
+  }
+  
+  .label-float {
+    position: relative;
+    padding-top: 13px;
+  }
+  
+  .label-float input {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    outline: none;
+    min-width: 400px;
+    padding: 9px 10px;
+    font-size: 15px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -webkit-appearance: none;
+  }
+  
+  .label-float input:focus {
+    border: 2px transparent;
+  }
+  
+  .label-float input::placeholder {
+    color: transparent;
+  }
+  
+  .label-float label {
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 15px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    background-color: transparent;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .label-float input:focus:required:invalid {
+    border: 2px solid#993399;
+  }
+  
+  .label-float input:required:invalid+label:before {
+    content: '*';
+  }
+  
+  .label-float input:focus+label, .label-float input:not(:placeholder-shown)+label {
+    font-size: 20px;
+    top: -12px;
+    color: white;
+  }
+
+  #nav {
+    background-color: #1E90FF;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #1E90FF;
+    color: black;
+    text-align: center;
+  }
