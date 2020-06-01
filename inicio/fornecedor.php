@@ -44,7 +44,7 @@
       </div>
     </div>
   </nav>
-  <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
+  <header class="masthead" style="background-image: url('img/fornecedor.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
