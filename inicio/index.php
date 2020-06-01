@@ -13,7 +13,11 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="../images/navbar.png" type="image/x-icon">
   <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+
+</style>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -40,6 +44,9 @@
           <li class="nav-item">
             <a class="nav-link" href="Cusuario.php"><i class="fas fa-users-cog fa-2x" title="Cadastrar usuário"></i></a>
           </li>
+          <li class="nav-item">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </li>
         </ul>
       </div>
     </div>
@@ -57,6 +64,25 @@
       </div>
     </div>
   </header>
+
+
+  <div id="myNav" class="soverlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="soverlay-content">
+      <a href="../Cfuncionario.php">Cadastrar Funcionário</a>
+      <a href="../Cfornecedor.php">Cadastrar Fornecedor</a>
+      <a href="../Cestoque.php">Cadastrar Produto</a>
+    </div>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
 
   <!-- Main Content 
   <div class="container">
