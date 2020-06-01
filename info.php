@@ -66,7 +66,7 @@
       <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
         <br>
         <h4>Funcionários</h4>
-        <a style="text-decoration: none" href="#">
+        <a style="text-decoration: none" href="Cfuncionario.php">
           <h6>Cadastrar Funcionário</h6>
         </a>
         <div id="overflowTest">
@@ -108,7 +108,7 @@
       <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
         <br>
         <h4>Fornecedores</h4>
-        <a style="text-decoration: none" href="#">
+        <a style="text-decoration: none" href="Cfornecedor.php">
           <h6>Cadastrar Fornecedor</h6>
         </a>
         <div id="overflowTest">
@@ -151,7 +151,7 @@
       <div class="tab-pane fade" id="nav-estoque" role="tabpanel" aria-labelledby="nav-estoque-tab">
         <br>
         <h4>Estoque</h4>
-        <a style="text-decoration: none" href="#">
+        <a style="text-decoration: none" href="Cestoque.php">
           <h6>Cadastrar Produto</h6>
         </a>
         <div id="overflowTest">
