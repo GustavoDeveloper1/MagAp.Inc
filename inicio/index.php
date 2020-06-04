@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,9 +15,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-
 </style>
-
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
@@ -64,8 +61,6 @@
       </div>
     </div>
   </header>
-
-
   <div id="myNav" class="soverlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="soverlay-content">
@@ -83,112 +78,75 @@
       document.getElementById("myNav").style.width = "0%";
     }
   </script>
-
-  <!-- Main Content 
+  <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Man must explore, and this is exploration at its greatest
-            </h2>
-            <h3 class="post-subtitle">
-              Problems look mighty small from 150 miles up
-            </h3>
+      <div class="col-lg-4 col-md-6">
+        <h3>Contatos</h3>
+        <ul class="list-unstyled three-column">
+          <li>Construção</li>
+          <li>Construção</li>
+          <li>Construção</li>
+          <li>Construção</li>
+          <li>Construção</li>
+          <li>Construção</li>
+          <li>Construção</li>
+          <li>Construção</li>
+        </ul>
+        <ul class="list-unstyled socila-list">
+          <li><img src="img/img.gif" alt="" width="45"/></li>
+          <li><img src="img/img.gif" alt="" width="45"/></li>
+          <li><img src="img/img.gif" alt="" width="45"/></li>
+          <li><img src="img/img.gif" alt="" width="45"/></li>
+          <li><img src="img/img.gif" alt="" width="45"/></li>
+          <li><img src="img/img.gif" alt="" width="45"/></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3>Developers</h3>
+        <div class="media">
+          <a href="#" class="pull-left">
+            <img src="img/user.webp" alt="" width="60" class="media-object" />
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
+          <div class="media-body-1"> 
+            <h4 class="media-heading">Pedro Bispo</h4>
+            <p class="media-body-p1">&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
         </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-            </h2>
+        <div class="media">
+          <a href="#" class="pull-left">
+          <img src="img/user.webp" alt="" width="60" class="media-object" />
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 18, 2019</p>
+          <div class="media-body-2">
+            <h4 class="media-heading">Raphael Neiva</h4>
+            <p class="media-body-p2">&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
         </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Science has not yet mastered prophecy
-            </h2>
-            <h3 class="post-subtitle">
-              We predict too much for the next year and yet far too little for the next ten.
-            </h3>
+        <div class="media">
+          <a href="#" class="pull-left">
+          <img src="img/user.webp" alt="" width="60" class="media-object" />
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on August 24, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Failure is not an option
-            </h2>
-            <h3 class="post-subtitle">
-              Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on July 8, 2019</p>
-        </div>
-        <hr>
-       Pager 
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          <div class="media-body-3">
+            <h4 class="media-heading">Gustavo Dias</h4>
+            <p class="media-body-p3">&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>-->
-  <hr>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Magap 2020</p>
-        </div>
+      <div class="col-lg-4">
+        <h3>Our Work</h3>
+        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
       </div>
     </div>
-  </footer>
+  </div>
+  <div class="copyright text-center">
+    Copyright &copy; 2020 <span>MagAp</span>
+  </div>
+</footer>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/clean-blog.min.js"></script>
 </body>
-
 </html>

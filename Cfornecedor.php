@@ -35,18 +35,18 @@
                 </span>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">Nome Fantasia*</span>
-                    <input class="input100" type="text" name="" placeholder="Nome">
+                    <input class="input100" type="text" name="" placeholder="Nome Fantasia">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">CNPJ*</span>
-                    <input class="input100" type="text" name="" placeholder="Sobrenome">
+                    <input class="input100" type="text" name="" placeholder="CNPJ">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
-                    <span class="label-input100">Telefone *</span>
-                    <input class="input100" type="text" name="" placeholder="Cargo">
+                    <span class="label-input100">Telefone*</span>
+                    <input class="input100" type="text" name="" placeholder="Telefone">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
-                    <span class="label-input100">Endereço *</span>
+                    <span class="label-input100">Endereço*</span>
                     <input class="input100" type="text" name="" placeholder="Endereço">
                 </div>
                 <div class="container-contact100-form-btn">
