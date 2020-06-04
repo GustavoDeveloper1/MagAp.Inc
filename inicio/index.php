@@ -105,7 +105,7 @@
       <div class="col-lg-4 col-md-6">
         <h3>Developers</h3>
         <div class="media">
-          <a href="#" class="pull-left">
+          <a href="../error.php" class="pull-left">
             <img src="img/user.webp" alt="" width="60" class="media-object" />
           </a>
           <div class="media-body-1"> 
@@ -114,7 +114,7 @@
           </div>
         </div>
         <div class="media">
-          <a href="#" class="pull-left">
+          <a href="../error.php" class="pull-left">
           <img src="img/user.webp" alt="" width="60" class="media-object" />
           </a>
           <div class="media-body-2">
@@ -123,7 +123,7 @@
           </div>
         </div>
         <div class="media">
-          <a href="#" class="pull-left">
+          <a href="../error.php" class="pull-left">
           <img src="img/user.webp" alt="" width="60" class="media-object" />
           </a>
           <div class="media-body-3">
@@ -134,10 +134,10 @@
       </div>
       <div class="col-lg-4">
         <h3>Our Work</h3>
-        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
-        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
-        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
-        <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
+        <img src="img/dev1.gif" alt="" width="150"/>
+        <img src="img/dev2.gif" alt="" width="150"/>
+        <img src="img/dev3.gif" alt="" width="150"/>
+        <img src="img/dev4.gif" alt="" width="150"/>
       </div>
     </div>
   </div>
