@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-vr">
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
 			</div>
 			<h2>Oops! Página não encontrada</h2>
 			<p>Desculpe, mas a página que você está procurando não existe, foi removida. nome alterado ou está temporariamente indisponível</p>
-			<a href="">Voltar à página inicial</a>
+			<a href="#">Voltar à página inicial</a>
 		</div>
 	</div>
 </body>

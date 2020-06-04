@@ -24,7 +24,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form action="login.php" method="POST" class="login100-form validate-form">
+				<form action="" method="POST"  class="login100-form validate-form">
 
 					<span class="login100-form-title p-b-43">
 						Login MagAp

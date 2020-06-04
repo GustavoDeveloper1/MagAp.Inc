@@ -110,7 +110,7 @@
           </a>
           <div class="media-body-1"> 
             <h4 class="media-heading">Pedro Bispo</h4>
-            <p class="media-body-p1">&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p class="media-body-p1">E-mail: pedrolima4680@gmail.com</p>
           </div>
         </div>
         <div class="media">
@@ -119,7 +119,7 @@
           </a>
           <div class="media-body-2">
             <h4 class="media-heading">Raphael Neiva</h4>
-            <p class="media-body-p2">&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p class="media-body-p2">E-mail: @gmail.com</p>
           </div>
         </div>
         <div class="media">
@@ -128,7 +128,7 @@
           </a>
           <div class="media-body-3">
             <h4 class="media-heading">Gustavo Dias</h4>
-            <p class="media-body-p3">&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p class="media-body-p3">E-mail: @gmail.com</p>
           </div>
         </div>
       </div>

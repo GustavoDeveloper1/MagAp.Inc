@@ -29,7 +29,7 @@
 <body>
     <div class="container-contact100" style="background-image: url('images/bg-01.jpg');">
         <div class="wrap-contact100">
-            <form class="contact100-form validate-form">
+            <form action="" method="POST"  class="contact100-form validate-form">
                 <span class="contact100-form-title">
                     Cadastro de Fornecedor
                 </span>
