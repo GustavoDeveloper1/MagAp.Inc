@@ -17,6 +17,7 @@
 <style>
 </style>
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="index.php">Magap</a>
@@ -42,13 +43,14 @@
             <a class="nav-link" href="Cusuario.php"><i class="fas fa-users-cog fa-2x" title="Cadastrar usuário"></i></a>
           </li>
           <li class="nav-item">
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i style="color:#4789EA" class="fas fa-bars"></i></span>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
+  <!-- Header com banner -->
+  <header class="masthead" style="background-image: url('img/banner.gif')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -61,6 +63,7 @@
       </div>
     </div>
   </header>
+  <!-- Menu flutuante -->
   <div id="myNav" class="soverlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="soverlay-content">
@@ -73,78 +76,82 @@
     function openNav() {
       document.getElementById("myNav").style.width = "100%";
     }
-
     function closeNav() {
       document.getElementById("myNav").style.width = "0%";
     }
   </script>
+  <!-- Em Produção -->
+  <div class="container-fluid">
+    <h4>Em Produção!!!</h4>
+  </div>
+  <!-- Footer -->
   <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <h3>Contatos</h3>
-        <ul class="list-unstyled three-column">
-          <li>Construção</li>
-          <li>Construção</li>
-          <li>Construção</li>
-          <li>Construção</li>
-          <li>Construção</li>
-          <li>Construção</li>
-          <li>Construção</li>
-          <li>Construção</li>
-        </ul>
-        <ul class="list-unstyled socila-list">
-          <li><img src="img/img.gif" alt="" width="45"/></li>
-          <li><img src="img/img.gif" alt="" width="45"/></li>
-          <li><img src="img/img.gif" alt="" width="45"/></li>
-          <li><img src="img/img.gif" alt="" width="45"/></li>
-          <li><img src="img/img.gif" alt="" width="45"/></li>
-          <li><img src="img/img.gif" alt="" width="45"/></li>
-        </ul>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <h3>Developers</h3>
-        <div class="media">
-          <a href="../error.php" class="pull-left">
-            <img src="img/user.webp" alt="" width="60" class="media-object" />
-          </a>
-          <div class="media-body-1"> 
-            <h4 class="media-heading">Pedro Bispo</h4>
-            <p class="media-body-p1">E-mail: pedrolima4680@gmail.com</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h3>Contatos</h3>
+          <ul class="list-unstyled three-column">
+            <li>Construção</li>
+            <li>Construção</li>
+            <li>Construção</li>
+            <li>Construção</li>
+            <li>Construção</li>
+            <li>Construção</li>
+            <li>Construção</li>
+            <li>Construção</li>
+          </ul>
+          <ul class="list-unstyled socila-list">
+            <li><img src="img/img.gif" alt="" width="45" /></li>
+            <li><img src="img/img.gif" alt="" width="45" /></li>
+            <li><img src="img/img.gif" alt="" width="45" /></li>
+            <li><img src="img/img.gif" alt="" width="45" /></li>
+            <li><img src="img/img.gif" alt="" width="45" /></li>
+            <li><img src="img/img.gif" alt="" width="45" /></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h3>Developers</h3>
+          <div class="media">
+            <a href="../error.php" class="pull-left">
+              <img src="img/user.webp" alt="" width="60" class="media-object" />
+            </a>
+            <div class="media-body-1">
+              <h4 class="media-heading">Pedro Bispo</h4>
+              <p class="media-body-p1">E-mail: pedrolima4680@gmail.com</p>
+            </div>
+          </div>
+          <div class="media">
+            <a href="../error.php" class="pull-left">
+              <img src="img/user.webp" alt="" width="60" class="media-object" />
+            </a>
+            <div class="media-body-2">
+              <h4 class="media-heading">Raphael Neiva</h4>
+              <p class="media-body-p2">E-mail: @gmail.com</p>
+            </div>
+          </div>
+          <div class="media">
+            <a href="../error.php" class="pull-left">
+              <img src="img/user.webp" alt="" width="60" class="media-object" />
+            </a>
+            <div class="media-body-3">
+              <h4 class="media-heading">Gustavo Dias</h4>
+              <p class="media-body-p3">E-mail: @gmail.com</p>
+            </div>
           </div>
         </div>
-        <div class="media">
-          <a href="../error.php" class="pull-left">
-          <img src="img/user.webp" alt="" width="60" class="media-object" />
-          </a>
-          <div class="media-body-2">
-            <h4 class="media-heading">Raphael Neiva</h4>
-            <p class="media-body-p2">E-mail: @gmail.com</p>
-          </div>
+        <div class="col-lg-4">
+          <h3>Our Work</h3>
+          <img src="img/dev1.gif" alt="" width="150" />
+          <img src="img/dev2.gif" alt="" width="150" />
+          <img src="img/dev3.gif" alt="" width="150" />
+          <img src="img/dev4.gif" alt="" width="150" />
         </div>
-        <div class="media">
-          <a href="../error.php" class="pull-left">
-          <img src="img/user.webp" alt="" width="60" class="media-object" />
-          </a>
-          <div class="media-body-3">
-            <h4 class="media-heading">Gustavo Dias</h4>
-            <p class="media-body-p3">E-mail: @gmail.com</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <h3>Our Work</h3>
-        <img src="img/dev1.gif" alt="" width="150"/>
-        <img src="img/dev2.gif" alt="" width="150"/>
-        <img src="img/dev3.gif" alt="" width="150"/>
-        <img src="img/dev4.gif" alt="" width="150"/>
       </div>
     </div>
-  </div>
-  <div class="copyright text-center">
-    Copyright &copy; 2020 <span>MagAp</span>
-  </div>
-</footer>
+    <div class="copyright text-center">
+      Copyright &copy; 2020 <span>MagAp</span>
+    </div>
+  </footer>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/clean-blog.min.js"></script>

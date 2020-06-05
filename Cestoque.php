@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <title>MagAp.Inc</title>
     <meta charset="UTF-8">
@@ -25,8 +24,8 @@
         }
     </style>
 </head>
-
 <body>
+    <!-- Formulário -->
     <div class="container-contact100" style="background-image: url('images/bg-01.jpg');">
         <div class="wrap-contact100">
             <form action="" method="POST"  class="contact100-form validate-form">
@@ -49,6 +48,7 @@
                     <span class="label-input100">Quantidade*</span>
                     <input class="input100" type="number" name="" placeholder="Quantidade">
                 </div>
+                <!-- Botão -->
                 <div class="container-contact100-form-btn">
                     <div class="wrap-contact100-form-btn">
                         <div class="contact100-form-bgbtn"></div>
@@ -58,6 +58,7 @@
                     </div>
                 </div>
             </form>
+            <!-- -->
         </div>
     </div>
     <script src="forms/vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -66,5 +67,4 @@
     <script src="forms/vendor/select2/select2.min.js"></script>
     <script src="forms/js/main.js"></script>
 </body>
-
 </html>

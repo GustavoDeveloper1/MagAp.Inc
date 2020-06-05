@@ -13,9 +13,11 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="../images/navbar.png" type="image/x-icon">
   <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/frm.css">
 </head>
 
 <body>
+  <!-- NavBar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="index.php">Magap</a>
@@ -44,6 +46,7 @@
       </div>
     </div>
   </nav>
+  <!-- Header com banner -->
   <header class="masthead" style="background-image: url('img/estoque.jpg')">
     <div class="overlay"></div>
     <div class="container">
@@ -57,14 +60,15 @@
       </div>
     </div>
   </header>
+  <!-- Container com a tabela -->
   <div class="container">
     <div class="row">
       <div class="container-fluid">
         <a style="text-decoration: none" href="../Cestoque.php">
           <h5>Cadastrar Produto</h5>
         </a>
-        <table id="tablefunc" class="table">
-          <thead>
+        <table class="table">
+          <thead class="thead">
             <tr>
               <th scope="col">Descrição do Produto</th>
               <th scope="col">Quantidade</th>

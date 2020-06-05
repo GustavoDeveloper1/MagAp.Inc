@@ -27,9 +27,10 @@
 </head>
 
 <body>
+    <!-- Formulário -->
     <div class="container-contact100" style="background-image: url('images/bg-01.jpg');">
         <div class="wrap-contact100">
-            <form action="" method="POST"  class="contact100-form validate-form">
+            <form action="" method="POST" class="contact100-form validate-form">
                 <span class="contact100-form-title">
                     Cadastro de Funcionário
                 </span>
@@ -57,6 +58,7 @@
                     <span class="label-input100">Endereço*</span>
                     <input class="input100" type="text" name="" placeholder="Endereço">
                 </div>
+                <!-- Botão -->
                 <div class="container-contact100-form-btn">
                     <div class="wrap-contact100-form-btn">
                         <div class="contact100-form-bgbtn"></div>
@@ -66,6 +68,7 @@
                     </div>
                 </div>
             </form>
+            <!-- -->
         </div>
     </div>
     <script src="forms/vendor/jquery/jquery-3.2.1.min.js"></script>
