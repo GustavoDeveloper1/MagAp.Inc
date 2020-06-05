@@ -34,7 +34,7 @@
                     Cadastro de Funcionário
                 </span>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
-                    <span class="label-input100">Nome *</span>
+                    <span class="label-input100">Nome*</span>
                     <input class="input100" type="text" name="" placeholder="Nome">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
@@ -42,19 +42,19 @@
                     <input class="input100" type="text" name="" placeholder="Sobrenome">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
-                    <span class="label-input100">CPF *</span>
+                    <span class="label-input100">CPF*</span>
                     <input class="input100" type="number" name="" placeholder="CPF">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
-                    <span class="label-input100">Cargo *</span>
+                    <span class="label-input100">Cargo*</span>
                     <input class="input100" type="text" name="" placeholder="Cargo">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
-                    <span class="label-input100">Telefone *</span>
+                    <span class="label-input100">Telefone*</span>
                     <input class="input100" type="number" name="" placeholder="Telefone">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
-                    <span class="label-input100">Endereço *</span>
+                    <span class="label-input100">Endereço*</span>
                     <input class="input100" type="text" name="" placeholder="Endereço">
                 </div>
                 <div class="container-contact100-form-btn">

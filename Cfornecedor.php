@@ -39,11 +39,11 @@
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">CNPJ*</span>
-                    <input class="input100" type="text" name="" placeholder="CNPJ">
+                    <input class="input100" type="number" name="" placeholder="CNPJ">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">Telefone*</span>
-                    <input class="input100" type="text" name="" placeholder="Telefone">
+                    <input class="input100" type="number" name="" placeholder="Telefone">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">Endereço*</span>

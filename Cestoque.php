@@ -39,15 +39,15 @@
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">Data de entrada*</span>
-                    <input class="input100" type="text" name="" placeholder="Data de entrada">
+                    <input class="input100" type="date" name="" placeholder="Data de entrada">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">Vencimento*</span>
-                    <input class="input100" type="text" name="" placeholder="Vencimento">
+                    <input class="input100" type="date" name="" placeholder="Vencimento">
                 </div>
                 <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Preencha este campo!">
                     <span class="label-input100">Quantidade*</span>
-                    <input class="input100" type="text" name="" placeholder="Quantidade">
+                    <input class="input100" type="number" name="" placeholder="Quantidade">
                 </div>
                 <div class="container-contact100-form-btn">
                     <div class="wrap-contact100-form-btn">
