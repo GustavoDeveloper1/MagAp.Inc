@@ -1,4 +1,6 @@
-.thead{
+ /* Formatação das cores das tabelas */
+ 
+ .thead{
     background-color: #80BDFF;
   }
   
@@ -7,3 +9,18 @@
   }
 
  
+
+  /* Formatação das cores dos ícones das tabelas */
+
+  #fasedit:hover {
+    
+    color: #00BC22;
+  }
+
+  #fasapagar:hover {
+    
+    color: #FF1F1F;
+  }
+
+
+

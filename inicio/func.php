@@ -13,6 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="../images/navbar.png" type="image/x-icon">
   <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/frm.css">
 </head>
 
 <body>
@@ -39,6 +40,7 @@
             <a class="nav-link" href="estoque.php">Estoque</a>
           </li>
           <li class="nav-item">
+            <!-- Link para abrir menu flutuante -->
             <a class="nav-link" href="Cusuario.php"><i class="fas fa-users-cog fa-2x" title="Cadastrar usuário"></i></a>
           </li>
         </ul>
@@ -69,7 +71,7 @@
       <h5>Cadastrar Funcionário</h5>
     </a>
     <table id="tablefunc" class="table">
-      <thead>
+      <thead class="thead" >
         <tr>
           <th scope="col">Nome</th>
           <th scope="col">Sobrenome</th>
@@ -77,7 +79,8 @@
           <th scope="col">Cargo</th>
           <th scope="col">Telefone</th>
           <th scope="col">Endereço</th>
-          <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp; Operações</th>
+          <th scope="col"> Editar</th>
+          <th scope="col"> Apagar</th>
         </tr>
       </thead>
       <tbody>
@@ -88,7 +91,8 @@
           <td>Gerente</td>
           <td>(61) 9 8759-3645</td>
           <td>Rio de Jnairo</td>
-          <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+          <td><a href=""><i id="fasedit" class="fas fa-edit"></i></a></td>
+          <td><a href=""><i id="fasapagar" class="fas fa-trash-alt"></i></a></td>
         </tr>
         <tr>
           <td>Marcos</td>
@@ -97,7 +101,8 @@
           <td>Atendente</td>
           <td>(61) 9 3645-8759</td>
           <td>Brasília-DF</td>
-          <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+          <td><a href=""><i id="fasedit" class="fas fa-edit"></i></a></td>
+          <td><a href=""><i id="fasapagar" class="fas fa-trash-alt"></i></a></td>
       </tbody>
     </table>
   </div>

@@ -74,7 +74,8 @@
               <th scope="col">Quantidade</th>
               <th scope="col">Data de Entrada</th>
               <th scope="col">Data de vencimento</th>
-              <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;Operações</th>
+              <th scope="col"> Editar</th>
+              <th scope="col"> Apagar</th>
             </tr>
           </thead>
           <tbody>
@@ -83,21 +84,24 @@
               <td>200</td>
               <td>12/09/2019</td>
               <td>26/08/2022</td>
-              <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              <td><a href=""><i id="fasedit" class="fas fa-edit"></i></a></td>
+              <td><a href=""><i id="fasapagar" class="fas fa-trash-alt"></i></a></td>
             </tr>
             <tr>
               <td>Coca-Cola</td>
               <td>200</td>
               <td>12/09/2019</td>
               <td>26/08/2022</td>
-              <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              <td><a href=""><i id="fasedit" class="fas fa-edit"></i></a></td>
+              <td><a href=""><i id="fasapagar" class="fas fa-trash-alt"></i></a></td>
             </tr>
             <tr>
               <td>Coca-Cola</td>
               <td>200</td>
               <td>12/09/2019</td>
               <td>26/08/2022</td>
-              <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+              <td><a href=""><i id="fasedit" class="fas fa-edit"></i></a></td>
+              <td><a href=""><i id="fasapagar" class="fas fa-trash-alt"></i></a></td>
             </tr>
           </tbody>
         </table>

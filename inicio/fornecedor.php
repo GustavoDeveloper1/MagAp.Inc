@@ -73,19 +73,19 @@
           <th scope="col">E-mail</th>
           <th scope="col">Telefone</th>
           <th scope="col">Cidade</th>
-          <th scope="col">Fornece</th>
-          <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp; Operações</th>
+          <th scope="col"> Editar</th>
+          <th scope="col"> Apagar</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>Coca-Cola</td>
           <td>12345678901</td>
-          <td>Júlia@gmail.com</td>
+          <td>Maria@gmail.com</td>
           <td>(61) 9 8759-3645</td>
           <td>Rio Grande do Sul</td>
-          <td>Refrigerantes</td>
-          <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+          <td><a href=""><i id="fasedit" class="fas fa-edit"></i></a></td>
+          <td><a href=""><i id="fasapagar" class="fas fa-trash-alt"></i></a></td>
         </tr>
         <tr>
           <td>Galo</td>
@@ -93,8 +93,8 @@
           <td>marcos@gmail.com</td>
           <td>(61) 9 3645-8759</td>
           <td>Goiânia</td>
-          <td>Massas</td>
-          <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Excluir</button></td>
+          <td><a href=""><i id="fasedit" class="fas fa-edit"></i></a></td>
+          <td><a href=""><i id="fasapagar" class="fas fa-trash-alt"></i></a></td>
         </tr>
       </tbody>
     </table>
