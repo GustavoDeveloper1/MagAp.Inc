@@ -38,7 +38,7 @@
                         <a class="nav-link" href="estoque.php">Estoque</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Cusuario.php"><i class="fas fa-users-cog fa-2x" title="Cadastrar usuário"></i></a>
+                        <a class="nav-link" href="Cusuario.php"><i class="fas fa-users fa-2x" title="Cadastrar usuário"></i></a>
                     </li>
                 </ul>
             </div>

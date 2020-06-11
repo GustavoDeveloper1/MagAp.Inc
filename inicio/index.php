@@ -40,10 +40,10 @@
             <a class="nav-link" href="estoque.php">Estoque</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Cusuario.php"><i class="fas fa-users-cog fa-2x" title="Cadastrar usuário"></i></a>
+            <a class="nav-link" href="Cusuario.php"><i class="fas fa-users fa-2x " title="Cadastrar usuário"></i></a>
           </li>
           <li class="nav-item">
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i style="color:#4789EA" class="fas fa-bars"></i></span>
+            <span style="font-size:25px;cursor:pointer" onclick="openNav()"><i style="color:#4789EA" class="fas fa-cogs"></i></span>
           </li>
         </ul>
       </div>
